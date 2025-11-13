@@ -1,8 +1,7 @@
 # ========================================
 # STS / Eclipse specific files
 # ========================================
-.classpath
-.project
+
 .settings/
 .apt_generated/
 .factorypath
@@ -57,7 +56,7 @@ Icon?
 # ========================================
 # Java specific
 # ========================================
-*.class
+
 *.jar
 *.war
 *.ear
