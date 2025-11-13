@@ -1,0 +1,102 @@
+# ========================================
+# STS / Eclipse specific files
+# ========================================
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# ========================================
+# IntelliJ IDEA (optional)
+# ========================================
+*.iml
+.idea/
+*.iws
+
+# ========================================
+# VS Code (optional)
+# ========================================
+.vscode/
+
+# ========================================
+# Maven specific
+# ========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ========================================
+# Logs and temp files
+# ========================================
+*.log
+logs/
+*.tmp
+*.bak
+*.swp
+*.err
+*.pid
+
+# ========================================
+# OS generated files
+# ========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.lnk
+
+# ========================================
+# Java specific
+# ========================================
+*.class
+*.jar
+*.war
+*.ear
+
+# ========================================
+# Test reports and outputs
+# ========================================
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# ========================================
+# Spring specific
+# ========================================
+# Ignore cache and generated sources
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+.springBeans
+target/
+bin/
+
+# ========================================
+# Environment / Secrets
+# ========================================
+.env
+application-*.yml
+application-*.properties
+# Keep only application.properties if needed
+# application.properties
+
+# ========================================
+# Optional: Docker / Container files
+# ========================================
+/docker/
+*.tar
+*.img
+
+# ========================================
+# Optional: Node / Frontend (if using React/Angular inside)
+# ========================================
+node_modules/
+dist/
